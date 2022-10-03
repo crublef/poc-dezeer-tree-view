@@ -1,0 +1,2965 @@
+[
+  {
+    "packageName": "test.content.up.family",
+    "className": "KidsTests.java",
+    "methodName": "verifyKidsDynamicScreens",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "enabled": "false",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the Kids Dynamic screens with the Kid profile of a Family account."
+  },
+  {
+    "packageName": "test.content.up.family",
+    "className": "KidsTests.java",
+    "methodName": "verifySearchRestrictionsForKids",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the Search restrictions for Kids profiles."
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileArtistsTests.java",
+    "methodName": "verifyFavoriteArtistsWithContent",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the display of the My Music Artists screen with content."
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileArtistsTests.java",
+    "methodName": "verifyFavoriteArtistAddArtistButton",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Verify the display of the Add Artist button in Favorite Artist section.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "DiscographyTests.java",
+    "methodName": "addAndRemoveDiscographyAlbumFromFavoritesFromContextMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "enabled": "false",
+    "description": "Add an artist's album to the favorites and remove it from its  context menu.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.DISCOGRAPHY",
+      "TagFeature.FAVORITES",
+      "TagFeature.CONTEXTMENU",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "ProfileDeepLinkTests.java",
+    "methodName": "profileDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the profile deep link while logged in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "ProfileDeepLinkTests.java",
+    "methodName": "profileDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the profile deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "ProfileDeepLinkTests.java",
+    "methodName": "profileDeepLinkAppClosed",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the profile deep link with the app closed.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "ModPlayerTests.java",
+    "methodName": "checkPlaylistPlayerUi",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Playlist player UI",
+    "groups": [
+      "TagFeature.PLAYLIST",
+      "TagFeature.MOD",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "ModPlayerTests.java",
+    "methodName": "actionPlaylistPlayerUi",
+    "platform": "android",
+    "timeOut": "150 * 1000",
+    "description": "Action playlist player UI.",
+    "groups": [
+      "TagFeature.PLAYLIST",
+      "TagFeature.MOD",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "ModPlayerTests.java",
+    "methodName": "actionSideModUi",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Action side MOD UI",
+    "groups": [
+      "TagFeature.MOD",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "ModPlayerTests.java",
+    "methodName": "actionRepeatModUi",
+    "platform": "android",
+    "timeOut": "210 * 1000",
+    "description": "Action repeat MOD UI",
+    "groups": [
+      "TagFeature.MOD",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "PodcastPlayerTests.java",
+    "methodName": "checkPodcastPlayerUi",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Check podcast player UI",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.MOD",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "PodcastPlayerTests.java",
+    "methodName": "actionPodcastPlayerUi",
+    "platform": "android",
+    "timeOut": "150 * 1000",
+    "description": "Action podcast player UI",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.MOD",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "PodcastPlayerTests.java",
+    "methodName": "actionSidePodcastUiPlayer",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Action side podcast UI player",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.MOD",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfilePodcastsTests.java",
+    "methodName": "verifyMyMusicPodcastsScreenWithContent",
+    "platform": "android",
+    "description": "Verify the display of the My Music Podcasts screen with content.",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfilePodcastsTests.java",
+    "methodName": "verifyMyMusicPodcastsScreenWithoutContent",
+    "platform": "android",
+    "description": "Verify the display of the My Music Podcasts screen without content.",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "createPlaylist",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Create playlist",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "editPlaylistName",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Edite playlist name",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "createPlaylistFromSmartTrackList",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "enabled": "false",
+    "description": "Create playlist from smart track list",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "playPlaylistFromPlayButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play a playlist from its play button",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "playPlaylistFromSpecificTrack",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play a playlist from one of its track items",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "sortTracks",
+    "platform": "android",
+    "timeOut": "600 * 1000",
+    "enabled": "false",
+    "description": "Sort the playlist's tracks with all of the available options.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "filterTracks",
+    "platform": "android",
+    "timeOut": "600 * 1000",
+    "description": "Filter playlist's tracks.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "addAndRemoveTrackFromFavoritesFromHeartIcon",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Add a playlist track to the favorites from its Heart icon  then remove it from the same icon.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "verifyAlbumRedirectionFromTrackContextMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "enabled": "false",
+    "description": "Redirect to a playlist track's album screen from its context menu.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "PlaylistsTests.java",
+    "methodName": "verifyArtistRedirectionFromTrackContextMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "enabled": "false",
+    "description": "Redirect to a playlist track's artist screen from its context menu.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "PlaylistDeepLinkTests.java",
+    "methodName": "playlistDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the playlist deep link while logged in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "PlaylistDeepLinkTests.java",
+    "methodName": "playlistDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the playlist deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "PlaylistDeepLinkTests.java",
+    "methodName": "playlistDeepLinkAppClosed",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the playlist deep link with the app closed.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "FlowPlayerTests.java",
+    "methodName": "actionFlowPlayerUi",
+    "platform": "android",
+    "enabled": "false",
+    "timeOut": "2 * 60 * 1000",
+    "description": "Action flow player UI",
+    "groups": [
+      "TagFeature.FLOW",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "FlowPlayerTests.java",
+    "methodName": "actionSideFlowPlayerUi",
+    "platform": "android",
+    "enabled": "false",
+    "timeOut": "3 * 60 * 1000",
+    "description": "Action side flow player UI",
+    "groups": [
+      "TagFeature.FLOW",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION"
+    ]
+  },
+  {
+    "packageName": "test.content.player",
+    "className": "FlowPlayerTests.java",
+    "methodName": "checkFlowPlayerUi",
+    "platform": "android",
+    "enabled": "false",
+    "timeOut": "150 * 1000",
+    "description": "Flow player UI",
+    "groups": [
+      "TagFeature.FLOW",
+      "TagFeature.PLAYER",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews",
+    "className": "DiscographyTests.java",
+    "methodName": "verifyAlbumRedirectionFromAlbumItem",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Tap on an album from an artist discography page and verify its redirection.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "ProfileDownloadedDeepLinkTests.java",
+    "methodName": "profileDownloadedDeepLink",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the profile/downloaded deep link.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.DOWNLOAD"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "FavoritesTests.java",
+    "methodName": "addAlbumToFavorites",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Add album to favorites",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "FavoritesTests.java",
+    "methodName": "addPodcastToFavorites",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Add podcast to favorites",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "FavoritesTests.java",
+    "methodName": "addArtistToFavorites",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Add artist to favorite",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "FavoritesTests.java",
+    "methodName": "addPlaylistToFavorites",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Add playlist to favorites",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "FavoritesTests.java",
+    "methodName": "removeAlbumFromFavorites",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Remove album from favorites",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "FavoritesTests.java",
+    "methodName": "removeArtistFromFavorites",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Remove artist from favorites",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.ARTIST",
+      "TagFeature.LIKE",
+      "TagFeature.FAVORITES"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "FavoritesTests.java",
+    "methodName": "removePlaylistFromFavorites",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "enabled": "false",
+    "description": "Remove playlist from favorites",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "FavoriteTracksTests.java",
+    "methodName": "verifyMyMusicFavoriteTracksScreenWithContent",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "description": "Verify the display of the My Music Favorite Tracks screen with content.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "FavoriteTracksTests.java",
+    "methodName": "verifyMyMusicFavoriteTracksScreenWithoutContent",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the display of the My Music Favorite Tracks screen without content."
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkContextualMenuHeader",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the contextual menu header",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.CONTEXTMENU",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkTopTracksAddToQueueOption",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the top track 'Add to queue' option",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.QUEUE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkTopTracksPlayNextOption",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the top track 'Play Next' option",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.QUEUE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkAddToFavoriteOptionMechanic",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the top track 'Add to favorite' option mechanic",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.FAVORITES",
+      "TagFeature.CONTEXTMENU",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkTopTracksPlayWithLyricsOption",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the top track 'Play with lyrics' option",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.LYRICS",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkTopTracksShareOption",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the top track 'Share' option",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.SHARE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkTopTracksAlbumPageOption",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the top track 'Album Page' option",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.ALBUM",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTopTracksContextualMenuTests.java",
+    "methodName": "checkTopTracksSeeSongCreditsOption",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the top track 'See song credits' option",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.CREDITS",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.album",
+    "className": "AlbumTests.java",
+    "methodName": "addAndRemoveAlbumTrackFromFavoritesFromIcon",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Add an album's track to the favorites and remove it from its  'Like' icon.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.core.connectivity",
+    "className": "BackOnlineTests.java",
+    "methodName": "forceOnline",
+    "platform": "android",
+    "timeOut": "180 * 1000",
+    "description": "Force online",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.offline",
+    "className": "OfflineTests.java",
+    "methodName": "syncAlbumAndPlayItOffline",
+    "platform": "android",
+    "timeOut": "15 * 60 * 1000",
+    "groups": [
+      "TagFeature.SETTINGS_OFFLINE",
+      "TagEnvironment.PRODUCTION",
+      "TestSuiteTags.COMPLETE"
+    ],
+    "testName": "Sync an Album and Play Offline",
+    "description": "Sync an album switch to offline mode kill and restart the app.  Play the album from downloaded content."
+  },
+  {
+    "packageName": "test.content.offline",
+    "className": "OfflineTests.java",
+    "methodName": "syncPlaylistAndPlayItOffline",
+    "platform": "android",
+    "timeOut": "15 * 60 * 1000",
+    "groups": [
+      "TagFeature.SETTINGS_OFFLINE",
+      "TagEnvironment.PRODUCTION",
+      "TestSuiteTags.COMPLETE"
+    ],
+    "testName": "Sync a Playlist and Play Offline",
+    "description": "Sync a Playlist switch to offline mode kill and restart the app.  Play the playlist from downloaded content."
+  },
+  {
+    "packageName": "test.content.up.search",
+    "className": "SearchTests.java",
+    "methodName": "openArtistScreenFromSearchResult",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "enabled": "false",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.SEARCH",
+      "TagFeature.ARTIST_CONTENT"
+    ],
+    "description": "Open an Artist screen from the Search screen."
+  },
+  {
+    "packageName": "test.content.up.search",
+    "className": "SearchTests.java",
+    "methodName": "searchSuggestion",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "enabled": "false",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.SEARCH"
+    ],
+    "description": "Search suggestion."
+  },
+  {
+    "packageName": "test.content.up.search",
+    "className": "SearchTests.java",
+    "methodName": "trendingSearches",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Trending searches"
+  },
+  {
+    "packageName": "test.content.up.search",
+    "className": "SearchTests.java",
+    "methodName": "viewAllTracksFromSearch",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "View all tracks from search",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.search",
+    "className": "SearchTests.java",
+    "methodName": "viewAllArtistsFromSearch",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "View all artists from search",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.search",
+    "className": "SearchTests.java",
+    "methodName": "viewAllMixesFromSearch",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "View all mixes from search",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "SearchQueryDeepLinkTests.java",
+    "methodName": "searchDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the search deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "SearchQueryDeepLinkTests.java",
+    "methodName": "searchSpecialCharactersDeepLink",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the search deep link with special characters.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.SEARCH",
+      "TagFeature.TAB_SEARCH"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "SearchQueryDeepLinkTests.java",
+    "methodName": "searchSpecialCharactersDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the search deep link while unlogged with special characters  then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.core.sync",
+    "className": "SynchronizationTests.java",
+    "methodName": "syncPlayAndUnsyncAlbum",
+    "platform": "android",
+    "timeOut": "15 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "testName": "Sync Play and Unsync an Album",
+    "description": "Sync an Album play it from downloaded content and unsync this album."
+  },
+  {
+    "packageName": "test.content.core.sync",
+    "className": "SynchronizationTests.java",
+    "methodName": "syncPlayAndUnsyncPlaylist",
+    "platform": "android",
+    "timeOut": "15 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "testName": "Sync Play and Unsync a Playlist",
+    "description": "Sync a Playlist play it from downloaded content and unsync this Playlist."
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "emptyStates",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "enabled": "false",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Empty states"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "shuffleMyMusicFree",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Shuffle my music free"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "shuffleMyMusicPremium",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Shuffle my music premium.",
+    "enabled": "false// disabled cf TECHQA-5094 test to be adapted"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "sectionDownloadedWithContent",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Section downloaded with content"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "sectionFavoritesWithContent",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Section favorites with content",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "sectionAlbumsWithContent",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Section albums with content",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "sectionPlaylistsWithContent",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "enabled": "false",
+    "description": "Section playlists with content",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "recentlyPlayedLivestream",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Recently played livestream"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "recentlyPlayedArtist",
+    "platform": "android",
+    "timeOut": "140 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Recently played artist"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "recentlyPlayedEpisode",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Recently played episode"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "recentlyPlayedAlbum",
+    "platform": "android",
+    "timeOut": "140 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "recently played album"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicPageTests.java",
+    "methodName": "recentlyPlayedPlaylist",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Recently played playlist"
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileDownloadedTests.java",
+    "methodName": "verifyMyMusicDownloadedScreenWithContent",
+    "platform": "android",
+    "description": "Verify the display of the My Music Downloaded screen with content.",
+    "enabled": "false",
+    "timeOut": "120 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews",
+    "className": "TopTracksTests.java",
+    "methodName": "playTopTrack",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play a top track.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews",
+    "className": "TopTracksTests.java",
+    "methodName": "openAlbumFromTrackContextMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Open a track's album from its context menu.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews",
+    "className": "TopTracksTests.java",
+    "methodName": "sortTopTracks",
+    "platform": "android",
+    "timeOut": "600 * 1000",
+    "description": "Sort the top tracks with all of the available options.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews",
+    "className": "TopTracksTests.java",
+    "methodName": "filterTopTracks",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Filter the top tracks.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogEventTests.java",
+    "methodName": "verifyLogSentAfterChangingTrackFromQueueList",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly sent after changing the track from  the queuelist.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogEventTests.java",
+    "methodName": "verifyLogSentForFlowTrackChangedWithChangeMoodOption",
+    "platform": "android",
+    "enabled": "false",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly created after skipping a FLOW  track with player's 'Change mood' option.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "AlbumDeepLinkTests.java",
+    "methodName": "albumDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the album deep link while logged in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "AlbumDeepLinkTests.java",
+    "methodName": "albumDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the album deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "AlbumDeepLinkTests.java",
+    "methodName": "albumDeepLinkAppClosed",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the album deep link with the app closed.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "AddToPlaylistTests.java",
+    "methodName": "addTracksToPlaylistFromAlbum",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Add tracks to playlist from album"
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "AddToPlaylistTests.java",
+    "methodName": "addTracksToPlaylistFromArtist",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Add tracks to playlist from artist"
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "AddToPlaylistTests.java",
+    "methodName": "addTracksToPlaylistFromPlaylist",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Add tracks to playlist from playlist"
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "AddToPlaylistTests.java",
+    "methodName": "addTracksToPlaylistFromSearchTab",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Add tracks to playlist from seach tab"
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkRedirectionToBackPage",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the redirection to back page",
+    "groups": [
+      "TagFeature.BACKBUTTON",
+      "TagFeature.REDIRECTION",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkArtistMasthead",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check Artist Masthead info",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.MASTHEAD",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkMastheadShareButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check Masthead share button",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.SHARE",
+      "TagFeature.MASTHEAD",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkMastheadPlayButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check Masthead play button",
+    "groups": [
+      "TagFeature.PLAY",
+      "TagFeature.ARTIST",
+      "TagFeature.MASTHEAD",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkMastheadLikeButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check Masthead like button",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.MASTHEAD",
+      "TagFeature.FAVORITES",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkMixCardInfos",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check Mix card infos",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.ARTISTMIX",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "playArtistMix",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play an artist mix.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.ARTISTMIX",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkTopTrackCellInfos",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play an artist mix.",
+    "groups": [
+      "TagFeature.CELL",
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkTopTrackLikeButtonMechanic",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check to track cell like button mechanic",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.FAVORITES",
+      "TagFeature.LIKE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "playTopTrack",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play an artist top track.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.PLAY",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "checkTopTracksSubpageRedirection",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the redirection to the top tracks subpage",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.SUBPAGE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "addAndRemoveArtistTopTrackFromFavoritesFromIcon",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Add an artist's top track to the favorites and remove it from its  'Like' icon.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.FAVORITES",
+      "TagFeature.LIKE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistTests.java",
+    "methodName": "addAndRemoveArtistTopTrackFromFavoritesFromContextMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Add an artist's top track to the favorites and remove it from its  context menu.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.TOPTRACKS",
+      "TagFeature.FAVORITES",
+      "TagFeature.CONTEXTMENU",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.content",
+    "className": "ExploreTests.java",
+    "methodName": "displayPopularChannelScreenFromExploreScreen",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Display the Popular Channel screen from the Explore screen and go back  to the Home screen."
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileFollowersTests.java",
+    "methodName": "verifyMyMusicFollowersScreenWithContent",
+    "platform": "android",
+    "description": "Verify the display of the My Music Followers screen with content.",
+    "timeOut": "120 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileFollowersTests.java",
+    "methodName": "verifyMyMusicFollowersScreenWithoutContent",
+    "platform": "android",
+    "description": "Verify the display of the My Music Followers screen without content.",
+    "timeOut": "120 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileAlbumTests.java",
+    "methodName": "verifyMyMusicAlbumsScreenWithContent",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Verify the display of the My Music Albums screen with content.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileAlbumTests.java",
+    "methodName": "verifyMyMusicAlbumsScreenWithoutContent",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Verify the display of the My Music Albums screen without content.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.sync",
+    "className": "SyncTest.java",
+    "methodName": "syncAlbumAndUnsync",
+    "platform": "android",
+    "timeOut": "10 * 60 * 1000",
+    "enabled": "false",
+    "description": "Sync album and unsync",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicTests.java",
+    "methodName": "verifyPlaylistRecentlyPlayed",
+    "platform": "android",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify that the playlist is in the recently played carousel and open it.",
+    "timeOut": "5 * 60 * 1000",
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.up.mymusicpage",
+    "className": "MyMusicTests.java",
+    "methodName": "verifyAlbumRecentlyPlayed",
+    "platform": "android",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify that the album is in the recently played carousel and open it.",
+    "timeOut": "5 * 60 * 1000",
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.up.playlist",
+    "className": "CreatePlaylistTests.java",
+    "methodName": "createPlaylistFromTrackContextMenuFromArtistScreen",
+    "platform": "android",
+    "timeOut": "7 * 60 * 1000",
+    "enabled": "false",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Create a new playlist from a top track context menu of the Artist screen."
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogSessionTests.java",
+    "methodName": "verifyLogSentBeforeLoggingOut",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that the current streamlog is correctly sent before logging out.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ],
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogSessionTests.java",
+    "methodName": "verifyLogSentOnReconnectAfterForceKillApp",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that the current streamlog is correctly sent after logging in  with the same account after force-killing the app.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForPlaylistTrackSkippedWithNextButtonWithPremiumUser",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly created after skipping a playlist  track with player's 'Next' button from a Premium account.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForTrackSkippedWithPreviousButton",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly created after skipping a  track with player's 'Previous' button.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForFlowTrackSkippedWithBanArtistWithPremiumUser",
+    "platform": "android",
+    "enabled": "false",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly created after skipping a FLOW  track with player's 'Do not recommend this artist' button from a  Premium account.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForFlowTrackSkippedWithSkipToNextTrackOptionWithFreeUser",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly created after skipping a FLOW  track with player's 'Skip to next track' option from a Free account.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentAfterPlayingAlbumTrack",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly created after skipping an album track  by waiting for the log to be sent once end of track is reached.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentAfterSwipNextSearchTrackResultWithPremiumUser",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog has been sent after a swipe next action on a  search track result while using a Premium account.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ],
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForArtistMixTrackSkippedWithDoNotRecommendThisTrackOption",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly sent after skipping an artist mix  track with player's 'Do not recommend this track' option.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyPodcastEpisodeLogSent",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly sent after skipping a podcast episode.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForArtistMixTrackWithFreeAccount",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly sent after skipping an artist mix  track with a Free account.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForShuffleAlbumWithFreeAccount",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly sent after skipping an album  shuffled track with a Free account.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentAfterSwitchTrackToPodcast",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify log sent after switching from a track context to a podcast one",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentForShufflePlaylistWithFreeAccount",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify that a streamlog is correctly sent after skipping a playlist  shuffled track with a Free account.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentAfterSwipePreviousWithPremium",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify log sent after swipe previous with premium",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ],
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentOnEndQueueReached",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify log is sent at the end of the queuelist",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentAfterSkipPocastEpisodeWithFreeRights",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify log sent after skipping podcast episode with Free rights",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ],
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentAfterSkipLovedTracksUsingShuffle",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify log sent after skipping the user's collection track played with  Shuffle play",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ],
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogContextTests.java",
+    "methodName": "verifyLogSentRepeatOne",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "description": "Verify log is sent with repeat-one mode",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playFlowTest",
+    "platform": "android",
+    "enabled": "false",
+    "timeOut": "90 * 1000",
+    "description": "Play flow",
+    "groups": [
+      "TagFeature.FLOW",
+      "TagFeature.PLAYBACKCONTEXT",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playArtistMixTest",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Play artist mix",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.ARTIST",
+      "TagFeature.ARTISTMIX",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playPlaylistTest",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Play playlist",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.PLAYLIST",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playAlbum",
+    "platform": "android",
+    "timeOut": "180 * 1000",
+    "description": "Play album",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.ALBUM",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playPodcastTest",
+    "platform": "android",
+    "timeOut": "9 * 60 * 1000",
+    "description": "Play podcast.",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.PODCAST",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playLivestreamTest",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Play livestream",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.LIVESTREAM",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playFavoritesTest",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Play favorites",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.FAVORITES",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playJustHeardTest",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "description": "Play just heard",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.FAVORITES",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playTrackFromSearchResultsScreen",
+    "platform": "android",
+    "timeOut": "3 * 60 * 1000",
+    "description": "Play a track from the search results screen",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.SEARCH",
+      "TagFeature.TRACK",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.playbackcontext",
+    "className": "PlayContextTest.java",
+    "methodName": "playRecentlyPlayedTrackFromJustHeard",
+    "platform": "android",
+    "timeOut": "3 * 60 * 1000",
+    "groups": [
+      "TagFeature.PLAYBACKCONTEXT",
+      "TagFeature.JUSTHEARD",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Play recently played track from user Just heard screen."
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "SimilarArtistsTests.java",
+    "methodName": "verifyArtistRedirectionFromArtistItem",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Tap on an artist from an artist similar artists page and verify its  redirection.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.REDIRECTION",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "SimilarArtistsTests.java",
+    "methodName": "verifyArtistRedirectionFromArtistItemContextMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Open the context menu of an artist item from the artist similar  artists page and tap on its Artist page redirection.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.REDIRECTION",
+      "TagFeature.CONTEXTMENU",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "SimilarArtistsTests.java",
+    "methodName": "addAndRemoveArtistFromFavoritesFromContextMenuFromSimilarArtistsScreen",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.FAVORITES",
+      "TagFeature.CONTEXTMENU",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Add and remove an artist from the favorites from its  context menu from the Artist Similar Artists screen."
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "SimilarArtistsTests.java",
+    "methodName": "addAndRemoveArtistFromFavoritesFromSimilarArtistsScreen",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.FAVORITES",
+      "TagFeature.LIKE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Add and remove an artist from the favorites from the Artist Similar  Artists screen."
+  },
+  {
+    "packageName": "test.content.core.stream",
+    "className": "QueueListTests.java",
+    "methodName": "checkQueueListGui",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the queue list GUI."
+  },
+  {
+    "packageName": "test.content.albumpage",
+    "className": "AlbumTests.java",
+    "methodName": "playAlbumFromPlayButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play an album from the play button.",
+    "groups": [
+      "TagFeature.ALBUM",
+      "TagFeature.MASTHEAD",
+      "TagFeature.PLAY",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.albumpage",
+    "className": "AlbumTests.java",
+    "methodName": "openShareMenuFromAlbumMasthead",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "testName": "Open Share menu from Album Masthead",
+    "description": "Open and check the sharing bottom sheet  from Album Masthead Share button.",
+    "groups": [
+      "TagFeature.ALBUM",
+      "TagFeature.MASTHEAD",
+      "TagFeature.SHARE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.albumpage",
+    "className": "AlbumTests.java",
+    "methodName": "likeAndUnlikeAlbumFromMasthead",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "testName": "Like Album from Masthead",
+    "description": "Like and unlike an Album from Masthead Like button.",
+    "groups": [
+      "TagFeature.ALBUM",
+      "TagFeature.MASTHEAD",
+      "TagFeature.LIKE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.albumpage",
+    "className": "AlbumTests.java",
+    "methodName": "checkAlbumTrackCellData",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "testName": "Check Album track cell data",
+    "description": "Check information displayed in Album track cell.",
+    "groups": [
+      "TagFeature.ALBUM",
+      "TagFeature.TRACK",
+      "TagFeature.CELL",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.albumpage",
+    "className": "AlbumTests.java",
+    "methodName": "playAlbumFromFirstTrack",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play an album from its first track.",
+    "groups": [
+      "TagFeature.ALBUM",
+      "TagFeature.STREAM",
+      "TagFeature.TRACKLIST",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.albumpage",
+    "className": "AlbumTests.java",
+    "methodName": "likeAndUnlikeTrackFromAlbumTracklist",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "testName": "Like a Track from Album Tracklist",
+    "description": "Like and unlike a track from Album tracklist Like button.",
+    "groups": [
+      "TagFeature.ALBUM",
+      "TagFeature.FAVORITES",
+      "TagFeature.TRACK",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.albumpage",
+    "className": "AlbumTests.java",
+    "methodName": "downloadAlbumFromMastheadContextualMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "testName": "Download Album from Masthead contextual",
+    "description": "Download and remove album from masthead contextual menu.",
+    "groups": [
+      "TagFeature.ALBUM",
+      "TagFeature.MASTHEAD",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.DOWNLOAD",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews",
+    "className": "PlaylistsTests.java",
+    "methodName": "verifyPlaylistRedirectionFromPlaylistItem",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Tap on a playlist from an artist playlist page and verify  its redirection.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkRedirectionToBackPage",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the redirection to back page",
+    "groups": [
+      "TagFeature.BACKBUTTON",
+      "TagFeature.REDIRECTION",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkMastheadInfos",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the masthead infos",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.MASTHEAD",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkPodcastDescriptionViaViewAllButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the podcast description via 'view all' button",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.VIEWALLBUTTON",
+      "TagFeature.DESCRIPTION",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkPodcastDescriptionViaContextualMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the podcast description via contextual menu",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.CONTEXTMENU",
+      "TagFeature.DESCRIPTION",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkPodcastShareButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the podcast masthead share button",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.SHARE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkPodcastDescriptionMechanic",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the podcast description mechanic",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.DESCRIPTION",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkPodcastPlayButton",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the podcast play button",
+    "groups": [
+      "TagFeature.PODCAST",
+      "TagFeature.PLAY",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.podcastPage",
+    "className": "PodcastTests.java",
+    "methodName": "checkPodcastLikeButtonMechanic",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the podcast like button mechanic",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.FAVORITES",
+      "TagFeature.LIKE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.core.deeplink",
+    "className": "PlaylistStreamDeepLinkTests.java",
+    "methodName": "playlistSngIdDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "240 * 1000",
+    "description": "Execute the playlist/[playlist_id]?sng_id",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "ArtistDeepLinkTests.java",
+    "methodName": "artistDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the artist deep link while logged in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "ArtistDeepLinkTests.java",
+    "methodName": "artistDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the artist deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "ArtistDeepLinkTests.java",
+    "methodName": "artistDeepLinkAppClosed",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the artist deep link with the app closed.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "PodcastDeepLinkTests.java",
+    "methodName": "podcastDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the podcast deep link while logged in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "PodcastDeepLinkTests.java",
+    "methodName": "podcastDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the podcast deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.contentviews.deeplink",
+    "className": "PodcastDeepLinkTests.java",
+    "methodName": "podcastDeepLinkAppClosed",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the podcast deep link with the app closed.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.content",
+    "className": "ChannelTests.java",
+    "methodName": "verifyArtistsSingleLineGrid",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Display the \\testsautomatiques\\ Channel and open an Artist screen from  the Artists single line grid"
+  },
+  {
+    "packageName": "test.content.up.content",
+    "className": "ChannelTests.java",
+    "methodName": "verifyPlaylistsDoubleLineGrid",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Display the \\testsautomatiques\\ Channel and open a Playlist screen from  the Playlists double line grid."
+  },
+  {
+    "packageName": "test.content.up.content",
+    "className": "ChannelTests.java",
+    "methodName": "verifyAlbumsCarousel",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Display the \\testsautomatiques\\ Channel and verify interactions on  Albums carousel."
+  },
+  {
+    "packageName": "test.content.up.content",
+    "className": "ChannelTests.java",
+    "methodName": "openAlbumItemFromCarousel",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Display the \\testsautomatiques\\ Channel and verify interactions on  Albums carousel."
+  },
+  {
+    "packageName": "test.content.up.content",
+    "className": "ChannelTests.java",
+    "methodName": "verifyPodcastFullGrid",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Display the \\testsautomatiques\\ Channel and open a Podcast screen from  the Podcasts full grid."
+  },
+  {
+    "packageName": "test.content.artistspicker",
+    "className": "ArtistsPickerTests.java",
+    "methodName": "onboardingArtists",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.ARTISTS_PICKER_ONBOARDING"
+    ],
+    "description": "Complete Onboarding Artists using Search verify Continue button behaviour  and similar artists display"
+  },
+  {
+    "packageName": "test.content.artistspicker",
+    "className": "ArtistsPickerTests.java",
+    "methodName": "onboardingArtistsNotCompletedAfterRelaunch",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.ARTISTS_PICKER_ONBOARDING"
+    ],
+    "description": "Verify Onboarding Artists page is displayed after relaunching the  application when not completed"
+  },
+  {
+    "packageName": "test.content.artistspicker",
+    "className": "ArtistsPickerTests.java",
+    "methodName": "onBoardingArtistsByGenres",
+    "platform": "android",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.ARTISTS_PICKER_ONBOARDING"
+    ],
+    "timeOut": "180 * 1000",
+    "description": "Complete Onboarding Artists selecting artists from different genres"
+  },
+  {
+    "packageName": "test.content.artistspicker",
+    "className": "ArtistsPickerTests.java",
+    "methodName": "artistsPickerRecallWithMinToPick0",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.ARTISTS_PICKER_RECALL"
+    ],
+    "description": "Verify Artists Picker Recall when minimum to pick is 0"
+  },
+  {
+    "packageName": "test.content.artistspicker",
+    "className": "ArtistsPickerTests.java",
+    "methodName": "artistsPickerRecallWithMinToPick3AndGenresBarTrue",
+    "platform": "android",
+    "timeOut": "2 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.ARTISTS_PICKER_RECALL"
+    ],
+    "description": "Verify Artists Picker Recall when minimum to pick is 3  and Genres bar enabled"
+  },
+  {
+    "packageName": "test.content.artistspicker",
+    "className": "ArtistsPickerTests.java",
+    "methodName": "artistsPickerRecallWithMaxToPick3",
+    "platform": "android",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.ARTISTS_PICKER_RECALL"
+    ],
+    "timeOut": "2 * 60 * 1000",
+    "description": "Verify Artists Picker Recall restriction when maximum to pick is 3."
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileTests.java",
+    "methodName": "otherUserProfile",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Other user profile.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "enabled": "false"
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistHighlightTests.java",
+    "methodName": "checkHighlightSectionInfos",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Check the infos of the Highlight section",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.HIGHLIGHT",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "ArtistHighlightTests.java",
+    "methodName": "playHighlightSection",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Play the Highlight section",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.HIGHLIGHT",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileRecentlyPlayedTests.java",
+    "methodName": "verifyMyMusicRecentlyPlayedScreenWithContent",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Verify the display of the My Music Recently Played screen with content.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileRecentlyPlayedTests.java",
+    "methodName": "verifyMyMusicRecentlyPlayedScreenWithoutContent",
+    "platform": "android",
+    "timeOut": "90 * 1000",
+    "description": "Verify the display of the My Music Recently Played screen without content.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "RelatedPlaylistsTests.java",
+    "methodName": "addAndRemovePlaylistFromFavoritesFromItemContextMenu",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "enabled": "false",
+    "description": "Add an artist's related playlist to the favorites and remove it from  its context menu.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.FAVORITES",
+      "TagFeature.CONTEXTMENU",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.artistpage",
+    "className": "RelatedPlaylistsTests.java",
+    "methodName": "addAndRemovePlaylistFromFavoritesFromHeartIcon",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "enabled": "false",
+    "description": "Add an artist's related playlist to the favorites and remove it from  Heart icon.",
+    "groups": [
+      "TagFeature.ARTIST",
+      "TagFeature.FAVORITES",
+      "TagFeature.LIKE",
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileFollowingTests.java",
+    "methodName": "verifyMyMusicYouAreFollowingScreenWithContent",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the display of the My Music You Are Following screen with content."
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileFollowingTests.java",
+    "methodName": "verifyMyMusicYouAreFollowingScreenWithoutContent",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the display of the My Music You Are Following screen without content."
+  },
+  {
+    "packageName": "test.content.core.deeplink",
+    "className": "AlbumStreamDeepLinkTests.java",
+    "methodName": "albumSngIdDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "240 * 1000",
+    "description": "Execute the album/[album_id]?sng_id",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "ProfileMeDeepLinkTests.java",
+    "methodName": "profileMeDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the profile/me deep link while logged in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "ProfileMeDeepLinkTests.java",
+    "methodName": "profileMeDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the profile/me deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "ProfileMeDeepLinkTests.java",
+    "methodName": "profileMeDeepLinkAppClosed",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the profile/me deep link with the app closed.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.stream",
+    "className": "ContentPageTests.java",
+    "methodName": "playAlbumFromDirectPlayMasthead",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Play album from direct play masthead",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.stream",
+    "className": "ContentPageTests.java",
+    "methodName": "playPlaylistFromDirectPlayMasthead",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "description": "Play playlist from direct play masthead",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.stream",
+    "className": "ContentPageTests.java",
+    "methodName": "playPodcastFromDirectPlayMasthead",
+    "platform": "android",
+    "timeOut": "60 * 1000",
+    "enabled": "false",
+    "description": "Play podcast from direct play masthead",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.favorites",
+    "className": "PodcastTests.java",
+    "methodName": "addPodcastToFavoritesAndDownloadEpisode",
+    "platform": "android",
+    "timeOut": "5 * 60 * 1000",
+    "enabled": "false",
+    "description": "Add podcast to favorites and download episode",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "HomeDeepLinkTests.java",
+    "methodName": "homeDeepLinkLoggedIn",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the home deep link while logged in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "HomeDeepLinkTests.java",
+    "methodName": "homeDeepLinkUnlogged",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the home deep link while unlogged then log in.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.up.deeplink",
+    "className": "HomeDeepLinkTests.java",
+    "methodName": "homeDeepLinkAppClosed",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "description": "Execute the home deep link with the app closed.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogLivestreamTests.java",
+    "methodName": "verifyLogSentForLivestream",
+    "platform": "android",
+    "timeOut": "8 * 60 * 1000",
+    "testName": "Livestream Streamlogs - same session",
+    "description": "Verify that a streamlog is sent after 5mn of listening time on a  livestream and a 2nd one is sent after stopping the stream with the same  session_id as the first one.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS",
+      "TagFeature.PLAYER_LIVESTREAM"
+    ]
+  },
+  {
+    "packageName": "test.content.core.streamlog",
+    "className": "StreamlogLivestreamTests.java",
+    "methodName": "verifyLivestreamDifferentSessionId",
+    "platform": "android",
+    "timeOut": "6 * 60 * 1000",
+    "testName": "Livestream Streamlogs - different sessions",
+    "description": "Verify that the session_id value of the streamlogs sent while streaming  livestreams are different if a Stop action has been made between 2 streams.",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TestSuiteTags.STREAMLOGS",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP",
+      "TagFeature.PLAYER_STREAMLOGS"
+    ]
+  },
+  {
+    "packageName": "test.content.up.profile",
+    "className": "ProfileTopTracksTests.java",
+    "methodName": "verifyMyMusicTopTracksScreenWithoutContent",
+    "platform": "android",
+    "timeOut": "120 * 1000",
+    "groups": [
+      "TestSuiteTags.COMPLETE",
+      "TagEnvironment.PRODUCTION",
+      "TagEnvironment.DRP"
+    ],
+    "description": "Verify the display of the My Music Top Tracks screen without content."
+  }
+]

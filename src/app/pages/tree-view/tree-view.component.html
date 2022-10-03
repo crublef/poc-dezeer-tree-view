@@ -1,0 +1,60 @@
+<h2 class="content-block">Tests Tree View</h2>
+
+<div class="form">
+  <dx-tree-view
+    id="treeview"
+    class="tree-view-container"
+    searchMode="contains"
+    [items]="treeViewTests"
+    [width]="500"
+    [searchEnabled]="true"
+    [selectionMode]="'single'"
+    [selectNodesRecursive]="false"
+    [selectByClick]="true"
+    (onSelectionChanged)="treeViewSelectionChanged($event)"
+    (onContentReady)="treeViewContentReady($event)">
+    <div *dxTemplate="let treeViewTest of 'treeViewTests'" [ngClass]="{'disabled-tests': true}">
+      <span>{{treeViewTest.text}}</span>
+    </div>
+  </dx-tree-view>
+
+  <div class="selected-container">
+    <div> Number of tests {{treeViewTests.length}}
+    <dx-check-box class="checkbox-container"
+                  text="Display only the disabled tests"
+                  [value]="disabledTreeViewTests"
+                  (onValueChanged)="valueChanged($event)">
+    </dx-check-box>
+    </div>
+    <dx-list
+      id="selected-items"
+      [width]="800"
+      [height]="200"
+      [items]="selectedTreeViewTests"
+      showScrollbar="always">
+      <dxi-item *ngFor="let selectedTreeViewTest of selectedTreeViewTests">
+        <ng-container [ngSwitch]="selectedTreeViewTest.type"
+          [ngTemplateOutlet]="selectedTreeViewTest.type === 0 ? treeViewPackage : selectedTreeViewTest.type === 1 ? treeViewClass : treeViewMethod"
+          [ngTemplateOutletContext]="{ selected: selectedTreeViewTest}">
+        </ng-container>
+      </dxi-item>
+    </dx-list>
+  </div>
+</div>
+
+<ng-template #treeViewPackage let-selected='selected'>
+
+</ng-template>
+
+<ng-template #treeViewClass let-selected='selected'>
+  <div> Platform: {{ selected.platform }} </div>
+  <div> Groups: {{ selected.groups }} </div>
+</ng-template>
+
+<ng-template #treeViewMethod let-selected='selected'>
+  <div> Description: {{ selected.description }} </div>
+</ng-template>
+
+
+
+

@@ -1,0 +1,12 @@
+<app-side-nav-outer-toolbar title="{{appInfo.title}}" *ngIf="loaded; else loading">
+  <router-outlet></router-outlet>
+  <app-footer>
+    Copyright © 2011-{{appInfo.currentYear}} {{appInfo.title}} Inc.
+    <br/>
+    All trademarks or registered trademarks are property of their respective owners.
+  </app-footer>
+</app-side-nav-outer-toolbar>
+
+<ng-template #loading>
+  <img class="image-container" alt="The app is loading" src="../assets/deezer_loading.gif">
+</ng-template>
